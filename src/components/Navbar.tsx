@@ -26,15 +26,7 @@ const Navbar = () => {
             >
               Find Buses
             </Link>
-            {/* <Link 
-              to="/my-bookings" 
-              className={`flex items-center space-x-1 text-gray-600 hover:text-gray-900 ${
-                location.pathname === '/my-bookings' ? 'text-[#06D6A0]' : ''
-              }`}
-            >
-              <Ticket className="h-5 w-5" />
-              <span>My Bookings</span>
-            </Link> */}
+          
             <Link 
               to="/login" 
               className={`flex items-center space-x-1 text-gray-600 hover:text-gray-900 ${
